@@ -1,0 +1,49 @@
+body {
+  font-family: 'Times new roman', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #21d6d3;
+}
+
+.hidden {
+  display: none;
+}
+
+#login-screen {
+  text-align: center;
+}
+
+#story-screen {
+  max-width: 500px;
+  background-color: rgb(28, 224, 205);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#story-content {
+  margin-bottom: 20px;
+}
+
+.navigation {
+  text-align: center;
+}
+
+#next-button, #choices button {
+  padding: 10px 20px;
+  font-size: 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #047bfb;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+#next-button:hover, #choices button:hover {
+  background-color: #0056b3;
+}
